@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.assests-container {
+  display: flex;
+}
+
+.assests {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-heading {
+  width: 100%;
+}
+.heading {
+  color: #e65c00;
+}

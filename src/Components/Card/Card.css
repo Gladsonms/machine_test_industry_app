@@ -1,0 +1,33 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  transition: 0.3s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.card-content {
+  padding: 10px 10px 20px 10px;
+}
+
+.card-content span {
+  font-size: 12;
+  color: rgb(168, 168, 168);
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #e65c00;
+}
